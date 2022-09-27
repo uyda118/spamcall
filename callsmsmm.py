@@ -2,7 +2,7 @@ import requests,os,sys
 from time import sleep
 os.system("cls" if os.name == "nt" else "clear")
 list_phone=[]
-phone=input('ENTER PHONE: ')
+phone=input('NHẬP SỐ ĐIỆN THOẠI: ')
 list_phone.append(phone)
 def tiki(i,phone):
     try:
